@@ -1,0 +1,64 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.bak
+
+# Build artifacts and temporary files
+build/
+dist/
+target/
+*.log
+*.tmp
+*.cache
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.jar
+*.war
+*.class
+
+# Node.js specific
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+# Python specific
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+
+# Ruby specific
+.bundle/
+Gemfile.lock
+
+# Java specific
+.gradle/
+bin/
+out/
+
+# C# / .NET specific
+bin/
+obj/
+
+# Project-specific sensitive files (e.g., API keys, configuration)
+config.local.js
+.env.local
+secrets.txt
+
+# Thumbnails and media caches
+*.thumbnails
+.thumbs/
